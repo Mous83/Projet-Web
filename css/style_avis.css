@@ -1,0 +1,196 @@
+html{
+    color: #FFFFFF;
+    background-color: #f7c7079c;
+    font-family: "Open Sans","PT Sans","Tahoma","Verdana","Arial",sans-serif!important;
+    
+    background-image: url('../img/manette_illustration.jpg');
+    height: 3%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header{
+    padding: 0%;
+    padding-bottom: 280px;
+    color: #FFFFFF;
+}
+
+
+section{
+  margin-top: 10%;
+  text-justify: justify;
+}
+
+
+footer{
+    width: 100%;
+    height: 150px;
+}
+
+a{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+a-text{
+    text-align: center;
+}
+
+
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+#menu img{
+    width: 20px;
+    height: 20px;
+}
+
+#menu a{
+    color: #ffcc00;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #ffcc00;
+    border-radius: 2px;
+    
+}
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #ffcc00;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #ffcc00;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+#menu a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+
+
+
+
+
+section h1{
+  text-align: center;
+}
+
+.b2 {
+    background-color: #f7c7079c;
+    padding: 20px;
+  }
+  
+
+  form {
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  select {
+    margin-top: 5px;
+  }
+  
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #608868;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #8b62a4;
+  }
+  
+
+  main {
+    background-color: #626560;
+    padding: 20px;
+  }
+
+/* Pour les écrans jusqu'à une largeur maximale de 600 pixels (téléphones) */
+@media (max-width: 600px) {
+  header {
+    padding-bottom: 100px;
+  }
+
+  #menu a {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Pour les écrans jusqu'à une largeur maximale de 900 pixels (tablettes) */
+@media (max-width: 900px) {
+  header {
+    padding-bottom: 200px;
+  }
+}
+

@@ -1,0 +1,109 @@
+html{
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #272727;
+    font-family: fantasy;
+
+    background-image: url('../img/manette_illustration.jpg');
+    height: 3%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header{
+    padding: 0px;
+    padding-bottom: 280px;
+    color: #FFFFFF;
+}
+
+section p{
+    margin-top: 20%;
+    text-justify: space-between;
+}
+
+section h1{
+    color: #FFFFFF;
+    margin-top: 10%;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+}
+
+body img{
+    padding-right: 7px;
+    padding-left: 5px;
+    width: 440px;
+    height: 440px;
+    border-radius:30px;
+    transition: transform .1s;
+}
+
+body img:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+
+
+
+a{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+a-text{
+    text-align: center;
+}
+
+
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+#menu img{
+    width: 20px;
+    height: 20px;
+}
+
+#menu a{
+    color: #ffcc00;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #ffcc00;
+    border-radius: 2px;
+    
+}
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #ffcc00;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #ffcc00;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+#menu a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}

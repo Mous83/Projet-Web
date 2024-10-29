@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #272727;
+    font-family: "Open Sans","PT Sans","Tahoma","Verdana","Arial",sans-serif!important;
+
+    background-image: url("https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_TloZTearsOfTheKingdom_Gamepage.jpg");
+    height: 50%;
+      
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+body{
+    height: 100%;
+}
+
+header{
+    padding: 0px;
+    padding-bottom: 280px;
+    color: #FFFFFF;
+}
+
+header h1{
+    padding-left: 70%;
+    padding-right: 0px;
+    padding-top: 13%;
+    font-size: large;
+
+}
+
+header h2{
+    padding-left: 94%;
+    padding-right: 0px;
+    font-size: medium;
+}
+
+
+
+body img{
+    padding-right: 7px;
+    padding-left: 5px;
+    width: 440px;
+    height: 440px;
+    border-radius:30px;
+    transition: transform .1s;
+}
+
+body img:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+}
+
+a{
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+a-text{
+    text-align: center;
+}
+
+section{
+    text-justify: space-between;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+#menu img{
+    width: 20px;
+    height: 20px;
+}
+
+#menu a{
+    color: #272727;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #272727;
+    border-radius: 2px;
+    
+}
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #000354;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #120243;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+#menu a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+
+
+footer{
+    background-color: #272727}

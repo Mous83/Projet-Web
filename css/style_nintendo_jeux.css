@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #272727;
+    font-family: "Open Sans","PT Sans","Tahoma","Verdana","Arial",sans-serif!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box .image-normal{
+    position: static;
+    display: inline-flex;
+}
+
+.image-normal{
+    position: relative;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.image-normal img{
+    border-radius: 15px;
+    width: 260px;
+    height: 400px;;
+    transition: transform .1s;
+}
+
+.image-normal:hover img{
+    width: 260px;
+    height: 400px;
+    -webkit-filter: blur(3px); 
+    filter: blur(3px);;
+}
+
+.image-normal .text-hover{
+    opacity: 0;
+    color:  #fe0016;
+    text-shadow: 1px 1px 2px white;
+    font-size: 18px;
+    position: absolute;
+} 
+
+.image-normal:hover .text-hover{
+    transition: all 0.0001s;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    opacity: 1;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+#menu img{
+    width: 20px;
+    height: 20px;
+}
+
+#menu a{
+    display: inline-block;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration:none;
+    color: #fe0016;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #fe0016;
+    border-radius: 2px;
+    
+}
+
+#menu a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+#m2{
+    list-style-type: none;
+    display: flex;
+}
+
+#m2 a{
+    color: #ffffff;
+    background-color: #fe0016;
+    margin: 2px;
+    padding: 8px;
+    border: 2px solid #fe0016;
+    border-radius: 2px;
+    
+}
+
+#m2 a:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 1s;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+}

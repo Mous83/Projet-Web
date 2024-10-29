@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- Version 5 de HTML-->
+<html lang="fr"> <!-- Précision de la langue pour le navigateur-->
+    <head> <!-- Entête du document HTML -->
+        <link rel="stylesheet" href="../css/style_avis.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script type="text/javascript" src="../js/script.js"></script>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>MineGame - Avis</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
+        <meta charset="UTF-8">
+    </head><!-- Fin de la balise d'entête -->
+    <body><!-- Début du code de la page web -->
+        <header>
+    
+            <div> 
+                <ul id="menu">
+                    <li>
+                        <a href="./accueil.html"><img src="../img/logo_manette.png"></a>
+                    </li>
+                    <li>
+                        <a href="./accueil.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="./Choix_xbox.html">Xbox</a>
+                    </li>
+                    <li>
+                        <a href="./Choix_playstation.html">Playstation</a>
+                    </li>
+                    <li>
+                        <a href="./Choix_nintendo.html">Nintendo</a>
+                    </li>
+                    <li>
+                        <a href="./apropos.html">A propos</a>
+                    </li>
+                    <li id="m2">
+                        <a href="./Avis.html">Avis</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+      
+        <section class="b2">
+            <h1>Donnez votre avis !</h1>
+            <form method="post" name="ajoutComment" action="#" class="box" id="addComment" onsubmit="return false">
+              <fieldset>
+                <label for="text"> Pseudo</label>
+                <input type="text" id="pseudo" name="pseudo">
+                <label for="text"> Jeux video</label>
+                <input type="text" id="jv" name="jv">
+                <label for="symbole">Console</label>
+                <select id ="console">
+                    <option value="">--Veuillez choisir la console--</option>
+                    <option value="PlayStation">PlayStation</option>
+                    <option value="Xbox">Xbox</option>
+                    <option value="Nintendo">Nintendo</option>
+                </select>
+              </fieldset>
+              <fieldset>
+                <label for="symbole">Note</label>
+                <select id ="note">
+                    <option value="1">1/5</option>
+                    <option value="2">2/5</option>
+                    <option value="3">3/5</option>
+                    <option value="4">4/5</option>
+                    <option value="5">5/5</option>
+                </select>
+                <label for="comment">Laissez un commentaire :</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+              </fieldset>
+              <fieldset class="bdd">
+                <input class="btn" type="submit" value="Confirmer" onclick="verifierFormulaire()">
+                <input class="btn" type="submit" value="Supprimer" onclick="supprimer()">
+              </fieldset> 
+            </form>
+            <main class="box">
+                <table id="montab" class="datatable">
+        
+                  <tr>
+                    <th>
+                      Pseudo
+                    </th>
+                    <th>
+                      Jeu
+                    </th>
+                    <th>
+                      Console
+                    </th>
+                    <th>
+                      Note
+                    </th>
+                    <th>
+                      Commentaire
+                    </th>
+                  </tr>
+                  
+              </table>
+              </main>
+          </section>
+        
+        <footer>
+            
+        </footer>
+        
+    </body><!-- Fin du code de la page web -->
+</html><!-- Fin du document -->
